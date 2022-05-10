@@ -42,7 +42,9 @@ body {
     width: 900px;
     max-width: 900px;
 }
-.links{position:relative;}
+.links{
+    position:relative;
+}
 .header .links .icon {
     flex-wrap: wrap;
     display: flex;
@@ -133,10 +135,11 @@ margin-bottom:5px;
     right:45%;
 
 }
-.landing .intro pre {
+.landing .intro p {
     color: #333;
     margin: 0;
     align-items: center;
+    text-align: center;
     justify-content: center;
     position: absolute;
     top: 45%;
